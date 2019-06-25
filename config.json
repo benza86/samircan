@@ -1,0 +1,44 @@
+[
+
+	{
+		"title": "مباريات اليوم",
+		"drawable": "",
+		"submenu": "1 بث مباشر",
+		"iap": false,
+		"tabs": [{
+			"title": "WebView",
+			"provider": "webview",
+			"arguments": [
+				"http://kora-online.tv/"
+			]
+		}]
+	},
+
+	{
+		"title": "Videos",
+		"drawable": "",
+		"submenu": "Other",
+		"iap": false,
+		"tabs": [{
+			"title": "Categories",
+			"provider": "overview",
+			"arguments": [
+				"overview.json"
+			]
+		}]
+	},
+
+	{
+		"title": "A propos",
+		"drawable": "",
+		"submenu": "Other",
+		"iap": false,
+		"tabs": [{
+			"title": "",
+			"provider": "custom",
+			"arguments": [
+				"com.knoozapps.saudielig.SettingsFragment", "fragment"
+			]
+		}]
+	}
+]
