@@ -3,31 +3,17 @@
 	{
 		"title": "مباريات اليوم",
 		"drawable": "",
-		"submenu": "1 بث مباشر",
+		"submenu": "مباريات اليوم",
 		"iap": false,
 		"tabs": [{
 			"title": "WebView",
 			"provider": "webview",
 			"arguments": [
-				"http://kora-online.tv/"
+				"https://www.elsport.com/"
 			]
 		}]
-	},
-
-	{
-		"title": "Videos",
-		"drawable": "",
-		"submenu": "Other",
-		"iap": false,
-		"tabs": [{
-			"title": "Categories",
-			"provider": "overview",
-			"arguments": [
-				"overview.json"
-			]
-		}]
-	},
-
+	}
+,
 	{
 		"title": "A propos",
 		"drawable": "",
@@ -37,7 +23,7 @@
 			"title": "",
 			"provider": "custom",
 			"arguments": [
-				"com.knoozapps.saudielig.SettingsFragment", "fragment"
+				"com.gasama.net.caf19.SettingsFragment", "fragment"
 			]
 		}]
 	}
